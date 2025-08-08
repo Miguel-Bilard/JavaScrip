@@ -3,11 +3,11 @@
 }
 body{
     background: linear-gradient(90deg,rgba(0, 0, 0, 1) 30%, rgb(139, 0, 0) 100%);
+    color: white;
 }
 
 #cab{
     background: linear-gradient(90deg,rgba(0, 7, 217, 1) 0%, rgba(0, 38, 110, 1) 18%, rgba(0, 0, 0, 1) 69%, rgba(115, 117, 0, 1) 100%);
-    color: white;
     height: 140px;
     display: flex;
     flex-direction: column;
@@ -16,4 +16,15 @@ body{
     font-size: large;
     border: 4px solid #5a0101;
 }
-
+#f1{
+    display: flex;
+    flex-direction: column;
+}
+#img1{
+    width: 12%;
+    margin-left: 3%;
+}
+#f1-1{
+    margin-left: 3.5%;
+    font-size:200%;
+}
